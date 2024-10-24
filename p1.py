@@ -5,6 +5,7 @@ while True:
     userinput=input("enter the price:\n")
     if(userinput!='q'):
         sum=sum+int(userinput)
+        print(f"Order total so far::{sum}")
     else:
         print("Thanks for using our calculator")
         print(f"your total bill is::{sum}, Thanks for visiting our Hotal")
